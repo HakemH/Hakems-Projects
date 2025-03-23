@@ -4,20 +4,13 @@
   "main": "index.js",
   "dependencies": {
     "concurrently": "^9.1.2",
-    "cookie": "^1.0.2",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "react-router": "^7.3.0",
-    "react-router-dom": "^7.3.0",
-    "scheduler": "^0.25.0",
-    "set-cookie-parser": "^2.7.1",
-    "turbo-stream": "^2.4.0",
     "wait-on": "^8.0.3"
   },
+
   "scripts": {
-    "start": "concurrently --kill-others-on-fail \"java -jar backend/target/authservice-0.0.1-SNAPSHOT.jar --server.port=9090\" \"wait-on http://localhost:9090 --timeout=30000 && npm --prefix authservice-frontend start\"",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "start": "concurrently \"java -jar backend/target/authservice-0.0.1-SNAPSHOT.jar --server.port=9090\" \"wait-on http://localhost:9090 && cd authservice-frontend && npm start\""
   },
+
   "keywords": [],
   "author": "",
   "license": "ISC",
