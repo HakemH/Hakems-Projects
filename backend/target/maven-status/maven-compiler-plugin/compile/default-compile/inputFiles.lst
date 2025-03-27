@@ -1,0 +1,8 @@
+C:\Users\koko6\Downloads\projects\authservice\authservice\backend\src\main\java\com\example\authservice\AuthServiceApplication.java
+C:\Users\koko6\Downloads\projects\authservice\authservice\backend\src\main\java\com\example\authservice\model\User.java
+C:\Users\koko6\Downloads\projects\authservice\authservice\backend\src\main\java\com\example\authservice\service\AuthService.java
+C:\Users\koko6\Downloads\projects\authservice\authservice\backend\src\main\java\com\example\authservice\security\SecurityConfig.java
+C:\Users\koko6\Downloads\projects\authservice\authservice\backend\src\main\java\com\example\authservice\controller\RegisterRequest.java
+C:\Users\koko6\Downloads\projects\authservice\authservice\backend\src\main\java\com\example\authservice\repository\UserRepository.java
+C:\Users\koko6\Downloads\projects\authservice\authservice\backend\src\main\java\com\example\authservice\controller\AuthController.java
+C:\Users\koko6\Downloads\projects\authservice\authservice\backend\src\main\java\com\example\authservice\security\JwtUtil.java

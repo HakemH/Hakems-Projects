@@ -1,0 +1,45 @@
+.landing-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    background-color: #121212; /* Dark background */
+}
+
+.game-area {
+    flex: 1; /* Take up remaining space */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play-button {
+    padding: 15px 30px;
+    font-size: 20px;
+    background-color: #ff9800; /* Example button color */
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.coming-soon-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columns */
+    gap: 10px;
+    padding: 20px;
+    background-color: #212121; /* Slightly lighter background */
+}
+
+.coming-soon-item {
+    background-color: #333;
+    aspect-ratio: 1; /* Maintain square aspect ratio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coming-soon-item img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+}
