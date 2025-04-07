@@ -1,2 +1,0 @@
-# Hakems-Projects
-personal projects
